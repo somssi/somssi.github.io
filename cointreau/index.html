@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cointreau</title>
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <style type="text/css">
+      table {
+      border: 1px solid gray;
+      }
+      td {
+      align: center;
+      }
+      .card {
+      min-height: 200px;
+      border: 1px solid gray;
+      padding: 10px;
+      font-size: 18pt;
+      }
+
+      .btn {
+      min-height: 50px;
+      font-size: 18pt;
+      text-align: center;
+      }
+
+      .menu {
+      color: #aaaaaa;
+      }
+
+      .save {
+      position: absolute;
+      right: 10px; bottom: 10px;
+      width: 20px; height: 20px;
+      border: 1px solid gray;
+      text-align: center;
+      font-size: 10pt;
+      }
+    </style>
+
+    <!-- JavaScript -->
+    <script
+       src="https://code.jquery.com/jquery-3.2.1.min.js"
+       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+       crossorigin="anonymous">
+    </script>
+    <script src="./triplesec-3.0.14.js"></script>
+  </head>
+
+  <body>
+    <!-- Primary Page Layout -->
+    <div class="container">
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 0px">
+          <center><img src="cointreau2.png"></center>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 0px;">
+          Input:
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 20px;">
+          <textarea id="data-input" class="u-full-width" style="height: 200px;"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 20px;">
+          Output:
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 20px;">
+          <textarea id="data-output" class="u-full-width" style="height: 200px; background: #eeeeee;" readonly></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 20px;">
+          Key:
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 20px">
+          <input id="data-key" type="password" class="u-full-width"></input>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 20px;">
+        <div class="one-half column">
+          <button id="btn-encrypt" class="u-full-width btn menu">Encrypt</button>
+        </div>
+        <div class="one-half column">
+          <button id="btn-decrypt" class="u-full-width btn menu">Decrypt</button>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Main -->
+    <script>
+      $('#btn-encrypt').click(function() {
+        console.log('start to encrypt..');
+        $('#data-output').val('processing..');
+
+        triplesec.encrypt ({
+          data:          new triplesec.Buffer($('#data-input').val()),
+          key:           new triplesec.Buffer($('#data-key').val()),
+          progress_hook: function (obj) { /* ... */ }
+        }, function(err, buff) {
+          console.log('ended.');
+          if (! err) {
+            var ciphertext = buff.toString('hex');
+            $('#data-output').val(ciphertext);
+          } else {
+            console.log(err);
+            $('#data-output').val(err);
+          }
+        });
+      });
+
+      $('#btn-decrypt').click(function() {
+        console.log('start to decrypt..');
+        $('#data-output').val('processing..');
+
+        triplesec.decrypt ({
+          data:          new triplesec.Buffer($('#data-input').val(), 'hex'),
+          key:           new triplesec.Buffer($('#data-key').val()),
+          progress_hook: function (obj) { /* ... */ }
+        }, function(err, buff) {
+          console.log('ended.');
+          if (! err) {
+            var plaintext = buff.toString();
+            $('#data-output').val(plaintext);
+          } else {
+            console.log(err);
+            $('#data-output').val(err);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
