@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 솜씨</title>
-    <link>http://192.168.0.3/tags/</link>
+    <link>https://somssi.github.io/tags/</link>
     <description>Recent content in Tags on 솜씨</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="http://192.168.0.3/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://somssi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dont Export During Make Test</title>
-      <link>http://192.168.0.3/tags/dont-export-during-make-test/</link>
+      <link>https://somssi.github.io/tags/dont-export-during-make-test/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0900</pubDate>
       
-      <guid>http://192.168.0.3/tags/dont-export-during-make-test/</guid>
+      <guid>https://somssi.github.io/tags/dont-export-during-make-test/</guid>
       <description></description>
     </item>
     
