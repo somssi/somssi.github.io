@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://192.168.0.3/posts/somssi-sonssi/</loc>
+    <lastmod>2018-06-03T00:01:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.3/about/</loc>
+    <lastmod>2018-06-01T21:33:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.3/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.3/tags/dont-export-during-make-test/</loc>
+    <lastmod>2018-06-03T00:01:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.3/posts/</loc>
+    <lastmod>2018-06-03T00:01:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.3/categories/posts/</loc>
+    <lastmod>2018-06-03T00:01:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.3/tags/</loc>
+    <lastmod>2018-06-03T00:01:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.3/</loc>
+    <lastmod>2018-06-03T00:01:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
