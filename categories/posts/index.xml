@@ -32,5 +32,17 @@
 고개 숙이고 혹은 등을 굽힌 채 잠깐 랩탑을 사용하는 것은 괜찮지만 오랜 시간 사용하면 건강에 좋지 않을거라 생각했습니다. 그래서 컴퓨터를 사용할 때 취할 수 있는 좋은 자세에 대해 찾아보았고 아래 그림과 같은 자세를 찾을 수 있었습니다. 공부를 마치고 사회에 나와 처음 직장 생활을 할 때 미약한 허리통증이 생겼습니다.</description>
     </item>
     
+    <item>
+      <title>손글씨 폰트</title>
+      <link>https://somssi.github.io/posts/hand-written-font/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://somssi.github.io/posts/hand-written-font/</guid>
+      <description>만들기에 대한 짧은 글을 남기면서, 이곳에 표시될 글자들도 나의 손글씨로 하면 어떨까 하는 생각이 들었다. 그래서 손글씨를 컴퓨터 폰트로 바꿀 수 있는 방법을 찾아보았다. 이곳저곳을 둘러보다 FontForge라는 오픈소스 소프트웨어를 찾았고 이를 이용해 폰트를 만들어 보았다.
+FontForge 사이트: https://fontforge.github.io/en-US/
+먼저 글씨를 적을 격자를 인쇄한 다음, 회사 동료 링링에게 글씨를 적어달라고 부탁했다.
+  적힌 글씨를 스캔하여 이미지로 만든 다음, 격자를 참고하여 각각의 글자 이미지로 잘라낸다. 이 과정을 손으로 하나씩 하기에는 어려움이 있어, 나는 명령행 이미지 편집 도구를 활용했다.</description>
+    </item>
+    
   </channel>
 </rss>
