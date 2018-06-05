@@ -22,6 +22,24 @@
     </item>
     
     <item>
+      <title>그림책 Zenga - 고양이 똥꼬 이야기</title>
+      <link>https://somssi.github.io/posts/independent-publishing-zenga/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://somssi.github.io/posts/independent-publishing-zenga/</guid>
+      <description>헌책방에서 그림책을 구경하고 사오면서 ‘나도 한번 그림책을 만들어볼까’ 라는 생각을 했다. 내가 좋아하는 그림책은 그림이 간결하고, 엉뚱한 이야기가 담긴 것들이다. 이를테면, 어른들은 잘 이야기 하지 않지만 아이들은 까르르 대며 좋아하는 똥오줌 이야기를 그린 그림책이 있다. &amp;lsquo;피토와 제르베’ 라는 이름으로 활동하는 부부 그림책 작가는 똥에 대한 이야기와 오줌에 대한 이야기를 그렸다. &amp;lsquo;똥, 뿌직’ 그리고 &amp;lsquo;오줌, 쏴아아’. 이 두가지 책은 다른 시기에 구입했고 그땐 몰랐는데 나중에 가서야 같은 작가가 만든 책이었음을 알았다. 또 기억나는 그림책은 &amp;lsquo;다음엔 너야 (에른스트 얀들 글/노르만 융에 그림)’ 라는 책이다.</description>
+    </item>
+    
+    <item>
+      <title>고양이 아크릴화</title>
+      <link>https://somssi.github.io/posts/painting-cat-20161116/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://somssi.github.io/posts/painting-cat-20161116/</guid>
+      <description>물감이 남아 그려본건데, 대담하게 그려진 터치가 맘에 들었던 그림</description>
+    </item>
+    
+    <item>
       <title>모니터 받침대 만들기</title>
       <link>https://somssi.github.io/posts/making-monitor-stand/</link>
       <pubDate>Wed, 16 Nov 2016 00:00:00 +0900</pubDate>
@@ -30,6 +48,15 @@
       <description>집에서 사용하는 컴퓨터는 데스크탑이 아닌 랩탑입니다. 랩탑의 경우, 기기의 구조 상 시선이 아래에 머물 수 밖에 없고 고개도 자연스러운 상태보다 앞으로 숙이게 됩니다.
   (ref: http://www.posturemedic.ca/index.php?content=computers)
 고개 숙이고 혹은 등을 굽힌 채 잠깐 랩탑을 사용하는 것은 괜찮지만 오랜 시간 사용하면 건강에 좋지 않을거라 생각했습니다. 그래서 컴퓨터를 사용할 때 취할 수 있는 좋은 자세에 대해 찾아보았고 아래 그림과 같은 자세를 찾을 수 있었습니다. 공부를 마치고 사회에 나와 처음 직장 생활을 할 때 미약한 허리통증이 생겼습니다.</description>
+    </item>
+    
+    <item>
+      <title>상수동에서 만난 사촌형</title>
+      <link>https://somssi.github.io/posts/drawing-cousin-20161116/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://somssi.github.io/posts/drawing-cousin-20161116/</guid>
+      <description>사촌형 만나 수다떨며 그렸던 그림</description>
     </item>
     
     <item>
@@ -42,6 +69,17 @@
 FontForge 사이트: https://fontforge.github.io/en-US/
 먼저 글씨를 적을 격자를 인쇄한 다음, 회사 동료 링링에게 글씨를 적어달라고 부탁했다.
   적힌 글씨를 스캔하여 이미지로 만든 다음, 격자를 참고하여 각각의 글자 이미지로 잘라낸다. 이 과정을 손으로 하나씩 하기에는 어려움이 있어, 나는 명령행 이미지 편집 도구를 활용했다.</description>
+    </item>
+    
+    <item>
+      <title>자세 교정용 거리 측정기</title>
+      <link>https://somssi.github.io/posts/ultrasonic-sensor-based-posture-alarm/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://somssi.github.io/posts/ultrasonic-sensor-based-posture-alarm/</guid>
+      <description>회사에 앉아 일하다 보면 어느 순간 나쁜 자세로 일하고 있는 자신을 발견한다. 좋은 자세를 취하며 일하기 위해 간단한 장치를 만들고자 생각했다. 자세를 측정하기엔 부족하지만 적어도 모니터와 머리 사이의 거리를 재면 지나치게 가깝게 다가가는 걸 막을 수 있으리라 생각했다.
+  이를 위해 집에서 가져온 아두이노 우노 그리고 초음파 센서를 이용하여 간단한 장치를 만들었다. 초음파 센서는 정해진 주기마다 소리를 내어 거리를 재고 측정된 거리는 시리얼 통신을 통해 리눅스 터미널에 출력된다.
+  모니터 뒷편에 붙여놓은 아두이노 우노</description>
     </item>
     
     <item>
