@@ -6,10 +6,21 @@
     <description>Recent content in Dont Export During Make Test on 솜씨</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 02 Jul 2018 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://somssi.github.io/tags/dont-export-during-make-test/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Review] 소프트웨어 엔지니어의 자세</title>
+      <link>https://somssi.github.io/posts/book-review-the-clean-coder/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0900</pubDate>
+      
+      <guid>https://somssi.github.io/posts/book-review-the-clean-coder/</guid>
+      <description>클린 코드의 저자 로버트 마틴의 책, The Clean Coder를 읽었다. 저자의 경험에서 우러난 조언들을 담고 있다. 인상 깊었던 구절들을 남겨본다. (옮겨 적고 보니 너무 많다)
+What would happen if you allowed a bug to slip through a module, and it cost your company $10,000? The nonprofessional would shrug his shoulders, say “stuff happens,” and start writing the next module. The professional wou write the company a check for $10,000!
+Professionalism is all about taking responsibility.</description>
+    </item>
     
     <item>
       <title>[Review] 밤새 읽게 만드는, 무자비한 SF소설</title>
